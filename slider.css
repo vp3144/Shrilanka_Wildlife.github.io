@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* comman properties*/
+
+* {
+    box-sizing: border-box;
+}
+
+.fullSize {
+    width: 100%;
+    height: 100%;
+}
+.autoSizing {
+    width: auto;
+    height: auto;
+}
+.overflowHidden {
+    overflow: hidden;
+}
+.absolutePos {
+    position: absolute;
+}
+.relativePos {
+    position: relative;
+}
+.fixedPos {
+    position: fixed;
+}
+.position {
+    position: absolute;
+    left: 0%;
+}
+
+.slide_1 {
+    background: url("images/15686649040_4d1709d7ba_b.jpg");
+    background-size: cover;
+}
+.slide_2 {
+    background: url("images/DvdM_overzichtbeeld-op-home.jpg");
+    background-size: cover;
+}
+.slide_3 {
+    background: url("images/img_6313.jpg");
+    background-size: cover;
+}
+.slide_4 {
+    background: url("images/pompadour-green-pigeon.jpg");
+    background-size: cover;
+}
+.slide_5 {
+    background: url("images/Wild-Life.jpg");
+    background-size: cover;
+}
+.slide_1, .slide_2, .slide_3, .slide_4, .slide_5 {
+    top: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 1.15s;
+}
+
+.sildeWrap {
+    top: 0%;
+    left: 0%;
+    height: auto;
+}
